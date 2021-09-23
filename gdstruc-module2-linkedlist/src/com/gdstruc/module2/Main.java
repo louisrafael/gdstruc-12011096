@@ -3,6 +3,7 @@ package com.gdstruc.module2;
 public class Main {
 
     public static void main(String[] args) {
+
         // LINKED LIST
 
         Player asuna = new Player(1, "Asuna", 100);
@@ -11,9 +12,9 @@ public class Main {
 
         PlayerLinkedList playerLinkedList = new PlayerLinkedList();
 
-        playerLinkedList.addToFront(asuna);
-        playerLinkedList.addToFront(lethalBacon);
-        playerLinkedList.addToFront(hpDeskjet);
+        playerLinkedList.addToFront(asuna); // First Node (2)
+        playerLinkedList.addToFront(lethalBacon); // First Node (1)
+        playerLinkedList.addToFront(hpDeskjet); // First Node (0)
 
         playerLinkedList.printList();
 
