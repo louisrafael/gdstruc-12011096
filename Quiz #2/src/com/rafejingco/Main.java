@@ -20,5 +20,11 @@ public class Main {
 
         playerLinkedList.printList(size);
 
+        /*
+        Overall Feedback
+         * no exposed size function
+         * contains should be boolean return type
+         * indexOf should be int return type
+        */
     }
 }
